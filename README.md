@@ -15,8 +15,11 @@ code as if it were going into production. Please then send us:
 Functional spec
 ---------------
 
-Prototype one of the following projects. We expect this to take 3-4 hours so
-feel free to mock/fake any feature that you don't have time to develop.
+Prototype **one of** the following projects.
+
+Spend as much time as you like on this project. However, out of respect for your
+time, if you need to scope it to 3-4 hours, feel free to mock/fake any feature
+that you don't have time to develop.
 
 The UX/UI is totally up to you. Feel free to explain any assumptions you have to
 make. If you like, get creative and add additional features a user might find
