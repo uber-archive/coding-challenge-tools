@@ -41,7 +41,7 @@ Here are some examples of freely available data:
 
 ### SF Movies
 
-Create a web app that shows where movies have been filmed in San
+Create a web app that shows on a map where movies have been filmed in San
 Francisco. The user should be able to filter the view using 
 autocompletion search.
 
@@ -58,7 +58,8 @@ Parking](https://data.sfgov.org/Transportation/Bicycle-Parking-Public-/w969-5mn4
 ### Food trucks
 
 Create a web app that tells the user what types of food trucks
-might be found near a specific location.
+might be found near a specific location. The main interface should be
+a map.
 
 The data is available on [DataSF](http://www.datasf.org/): [Food
 Trucks](https://data.sfgov.org/Permitting/Mobile-Food-Facility-Permit/rqzj-sfat) 
