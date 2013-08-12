@@ -105,4 +105,5 @@ Host it!
 --------
 
 When you’re done, host it somewhere and provide us with the server's URL, as
-well as a Github/Bitbucket URL for the repo hosting your code.
+well as a Github/Bitbucket URL for the repo hosting your code. Please also include
+a link to your resume in the README.
