@@ -9,8 +9,8 @@ code as if it were going into production. Please then send us:
 
 * A link to the hosted application
 * A link to the hosted repository (e.g. Github/Bitbucket)
-* Any other example of code you're particularly proud of.
-* Your resume or link to public profile
+* Link to any other example of code you're particularly proud of  (ideally in your project's README)
+* Link to your resume or public profile (ideally in your project's README)
 
 Functional spec
 ---------------
@@ -105,5 +105,4 @@ Host it!
 --------
 
 When you’re done, host it somewhere and provide us with the server's URL, as
-well as a Github/Bitbucket URL for the repo hosting your code. Please also include
-a link to your resume in the README.
+well as a Github/Bitbucket URL for the repo hosting your code.
