@@ -88,6 +88,7 @@ Here are some technologies we are more familiar with:
 * Go
 * C++
 * Haskell
+* Java
 
 You are also free to use any web framework, although we would prefer that you 
 use a microframework (e.g. [Flask](http://flask.pocoo.org/)).
