@@ -76,8 +76,9 @@ provided that the general client/service architecture is respected.
 We believe there is no one-size-fits-all technology. Good engineering is also
 about using the right tool for the right job. A big part of what we do is
 learning new tools and technologies. Therefore, feel free to mention in your
-README how much experience you have with the technical stack you choose, we
-will take note of that when reviewing your challenge.
+`README` how much experience you have with the technical stack you choose, we
+will take note of that when reviewing your challenge. Feel free to mention the
+reason behind your technical choices too.
 
 Here are some technologies we are more familiar with:
 
