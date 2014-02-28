@@ -85,7 +85,7 @@ Choose **one** of the following technical track:
 
 1. **Full-stack**: include both front-end and back-end.
 2. **Back-end track**: include a minimal front-end. Write, document and test
-   test your API as if it will be used by other services and front-ends.
+   your API as if it will be used by other services and front-ends.
 3. **Front-end track**: include a minimal back-end, or use the data service
    directly. Focus on making the interface as polished as possible.
 
