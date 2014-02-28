@@ -81,7 +81,7 @@ instance providing a JSON in/out RESTful API. Feel free to use any other
 technologies provided that the general client/service architecture is
 respected.
 
-Choose **one** of the following technical track (full stack is preferred):
+Choose **one** of the following technical tracks (full stack is preferred):
 
 1. **Full-stack**: include both front-end and back-end.
 2. **Back-end track**: include a minimal front-end (e.g. a static view). Write,
@@ -120,8 +120,10 @@ The front-end should ideally be a single page app with a single `index.html`
 linking to external JS/CSS/etc. You may take this opportunity to demonstrate
 your CSS3 or HTML5 knowledge.
 
-We recommend using [Backbone.js](http://documentcloud.github.com/backbone/)
-for front-end MVC.
+We recommend using [Backbone.js](http://documentcloud.github.com/backbone/) for
+front-end MVC, and recommend against using heavier front-end frameworks (like
+Angular, for example). That way we can get better insight into your thought
+process and your understanding of the framework itself.
 
 Host it!
 --------
