@@ -103,6 +103,10 @@ your CSS3 or HTML5 knowledge.
 We recommend using [Backbone.js](http://documentcloud.github.com/backbone/)
 for front-end MVC.
 
+We recommend against using heavier front-end frameworks (like Angular, for example)
+unless you heavily comment your code. That way we can get insight into your thought
+process and your understanding of the framework itself.
+
 Host it!
 --------
 
