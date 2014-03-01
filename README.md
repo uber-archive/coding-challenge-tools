@@ -30,10 +30,6 @@ Prototype **one** of the following projects:
 3. Bicycle Parking
 4. Food Trucks
 
-Spend as much time as you like on this. However, out of respect for your time,
-if you need to scope it to 3-4 hours, feel free to mock/fake any feature that
-you don't have time to develop.
-
 The UX/UI is totally up to you. Feel free to explain any assumptions you have
 to make. If you like, get creative and add additional features a user might
 find useful! 
