@@ -17,6 +17,8 @@ following items:
   trucks)
 * The technical track you chose (full stack, back-end *or* front-end)
 * Reasoning behind your technical choices (and level of experience with those)
+* Trade-offs you might have made, anything you left out, or what you might do
+  differently if you were to spend additional time on the project
 * Link to other code you're particularly proud of
 * Link to your resume or public profile
 
@@ -105,10 +107,9 @@ Here are some technologies we are more familiar with:
 * Haskell
 * Java
 
-You are also free to use any web framework, although we would prefer that you
-use a microframework (e.g. [Flask](http://flask.pocoo.org/)) and stay away from
-large frameworks like Django, Ruby on Rails, etc. Those will not give us as
-good insights into your skills.
+You are also free to use any web framework. If you choose to use a framework
+that results in boilerplate code in the repository, please detail in your README
+which code was written by you (as opposed to generated code).
 
 ### Front-end
 
