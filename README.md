@@ -127,3 +127,19 @@ Host it!
 
 When you’re done, host it somewhere and provide us with the server's URL, as
 well as a public URL for the repository hosting your code.
+
+How we review
+-------------
+
+Your application will be reviewed by at least three of our engineers. The
+aspects of your code we will judge include:
+
+* Functionality: Does the application do what was asked? If there is anything
+  missing, does the README explain why it is missing?
+* Code quality: Is the code simple, easy to understand, and maintainable?
+  Are there any code smells or other red flags?
+* Testing: How thorough are the automated tests? Will they be difficult to
+  change if the requirements of the application were to change?
+* UX: Is the web interface understandable and pleasing to use?
+* Technical choices: Do choices of libraries, databases, etc. seem appropriate
+  for the chosen application?
