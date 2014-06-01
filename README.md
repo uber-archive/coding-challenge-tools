@@ -1,8 +1,8 @@
 Web Coding Challenge
 ====================
 
-Here is a sample project that will give us some insight into your current level
-of experience.
+Welcome! Below is a description of a projec that you will complete to
+give us some insight into your current level of experience.
 
 This is a simple project, but organize, design, test and document your
 code as if it were going into production. Please then send us:
@@ -13,7 +13,7 @@ code as if it were going into production. Please then send us:
 Write your README as if it was for a production service, and include the
 following items:
 
-* The project you chose (departure times, SF movies, bicycle parking *or* food
+* The project you chose (departure times, SF movies, email service *or* food
   trucks)
 * The technical track you chose (full stack, back-end *or* front-end)
 * Reasoning behind your technical choices (and level of experience with those)
@@ -29,7 +29,7 @@ Prototype **one** of the following projects:
 
 1. Departure Times
 2. SF Movies
-3. Bicycle Parking
+3. Email Service
 4. Food Trucks
 
 The UX/UI is totally up to you. Feel free to explain any assumptions you have
@@ -56,12 +56,15 @@ search.
 The data is available on [DataSF](http://www.datasf.org/): [Film
 Locations](https://data.sfgov.org/Arts-Culture-and-Recreation-/Film-Locations-in-San-Francisco/yitu-d5am).
 
-### Bicycle Parking
+### Email Service
+Create a service that accepts the neceessary information and sends emails.  It should provide an abstraction between two different email service providers.  If one of the services goes down, your service can quickly failover to a different provider without affecting your customers.
 
-Create a service providing directions to the nearest bicycle parking.
+Example Email Providers:
 
-The data is available on [DataSF](http://www.datasf.org/): [Bicycle
-Parking](https://data.sfgov.org/Transportation/Bicycle-Parking-Public-/w969-5mn4) 
+* [Mailgun](www.mailgun.com) - [Simple Send Documentation](http://documentation.mailgun.com/quickstart.html#sending-messages)
+* [Mandrill](www.mandrillapp.com) - [Simple Send Documentation](https://mandrillapp.com/api/docs/messages.JSON.html#method-send)
+
+Both services are free to try and are pretty painless to sign up for, so please register your own test accounts on each.  *Please do not use the client libraries provided by Mandrill or Mailgun.*  In both cases, you’re making simple post requests - do this with a lower level package or your language’s built-in commands.
 
 ### Food Trucks
 
@@ -79,7 +82,7 @@ instance providing a JSON in/out RESTful API. Feel free to use any other
 technologies provided that the general client/service architecture is
 respected.
 
-Choose **one** of the following technical tracks (full stack is preferred):
+Choose **one** of the following technical tracks that best suits your skillset:
 
 1. **Full-stack**: include both front-end and back-end.
 2. **Back-end track**: include a minimal front-end (e.g. a static view, API
