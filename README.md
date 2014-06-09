@@ -1,7 +1,7 @@
 Web Coding Challenge
 ====================
 
-Welcome! Below is a description of a projec that you will complete to
+Welcome! Below is a description of a project that you will complete to
 give us some insight into your current level of experience.
 
 This is a simple project, but organize, design, test and document your
