@@ -57,14 +57,15 @@ The data is available on [DataSF](http://www.datasf.org/): [Film
 Locations](https://data.sfgov.org/Arts-Culture-and-Recreation-/Film-Locations-in-San-Francisco/yitu-d5am).
 
 ### Email Service
-Create a service that accepts the neceessary information and sends emails.  It should provide an abstraction between two different email service providers.  If one of the services goes down, your service can quickly failover to a different provider without affecting your customers.
+
+Create a service that accepts the necessary information and sends emails. It should provide an abstraction between two different email service providers. If one of the services goes down, your service can quickly failover to a different provider without affecting your customers.
 
 Example Email Providers:
 
 * [Mailgun](www.mailgun.com) - [Simple Send Documentation](http://documentation.mailgun.com/quickstart.html#sending-messages)
 * [Mandrill](www.mandrillapp.com) - [Simple Send Documentation](https://mandrillapp.com/api/docs/messages.JSON.html#method-send)
 
-Both services are free to try and are pretty painless to sign up for, so please register your own test accounts on each.  *Please do not use the client libraries provided by Mandrill or Mailgun.*  In both cases, you’re making simple post requests - do this with a lower level package or your language’s built-in commands.
+Both services are free to try and are pretty painless to sign up for, so please register your own test accounts on each. Please avoid using the client libraries provided by Mandrill or Mailgun. In both cases, you’re making simple `POST` requests - do this with a lower level package or your language’s built-in API.
 
 ### Food Trucks
 
