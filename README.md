@@ -66,7 +66,7 @@ Example Email Providers:
 * [Mailgun](http://www.mailgun.com) - [Simple Send Documentation](http://documentation.mailgun.com/quickstart.html#sending-messages)
 * [Mandrill](https://mandrillapp.com) - [Simple Send Documentation](https://mandrillapp.com/api/docs/messages.JSON.html#method-send)
 
-Both services are free to try and are pretty painless to sign up for, so please register your own test accounts on each. Please avoid using the client libraries provided by Mandrill or Mailgun. In both cases, you’re making simple `POST` requests - do this with a lower level package or your language’s built-in API.
+All three services are free to try and are pretty painless to sign up for, so please register your own test accounts on each. Please avoid using the client libraries provided by the suppliers. In each case, you’re making simple `POST` requests - do this with a lower level package or your language’s built-in API.
 
 ### Food Trucks
 
