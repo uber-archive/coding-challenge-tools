@@ -1,5 +1,24 @@
-Web Coding Challenge
-====================
+Coding challenge or existing code?
+==================================
+
+Existing Code
+-------------
+
+The coding challenge is optional if you already have some code that you can
+share with us. Please follow the following guidelines:
+
+* Include a link to the hosted repository (e.g. Github/Bitbucket). We cannot
+  review archives or single files.
+* The repo should include a README that follows the same principles as those
+  described below. In particular, please make sure to include high-level
+  explanation about what the code is doing, and which pieces you're
+  particularly proud of.
+* Ideally, the code you're providing:
+  * Implements some front-end and some back-end aspect.
+  * Is deployed and hosted somewhere.
+
+Coding Challenge
+----------------
 
 Welcome! Below is a description of a project that you will complete to
 give us some insight into your current level of experience.
@@ -22,6 +41,9 @@ following items:
 * Link to other code you're particularly proud of
 * Link to your resume or public profile
 
+Coding Challenge Guidelines
+===========================
+
 Functional spec
 ---------------
 
@@ -34,7 +56,7 @@ Prototype **one** of the following projects:
 
 The UX/UI is totally up to you. Feel free to explain any assumptions you have
 to make. If you like, get creative and add additional features a user might
-find useful! 
+find useful!
 
 ### Departure Times
 
@@ -74,7 +96,7 @@ Create a service that tells the user what types of food trucks might be found
 near a specific location on a map.
 
 The data is available on [DataSF](http://www.datasf.org/): [Food
-Trucks](https://data.sfgov.org/Permitting/Mobile-Food-Facility-Permit/rqzj-sfat) 
+Trucks](https://data.sfgov.org/Permitting/Mobile-Food-Facility-Permit/rqzj-sfat)
 
 Technical spec
 --------------
@@ -134,7 +156,7 @@ When you’re done, host it somewhere and provide us with the server's URL, as
 well as a public URL for the repository hosting your code.
 
 How we review
--------------
+=============
 
 Your application will be reviewed by at least three of our engineers. The
 aspects of your code we will judge include:
