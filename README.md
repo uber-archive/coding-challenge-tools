@@ -1,48 +1,66 @@
 Coding challenge or existing code?
 ==================================
 
-Existing Code
+Welcome! Below is a description of a project that will give us some insight
+into your current level of experience.
+
+The coding challenge is optional ([guidelines
+below](#coding_challenge_guidelines)) if you already have some code that you're
+proud of and can share with us.
+
+Existing code
 -------------
 
-The coding challenge is optional if you already have some code that you can
-share with us. Please follow the following guidelines:
+If you have existing code, please follow the following guidelines:
 
-* Include a link to the hosted repository (e.g. Github/Bitbucket). We cannot
+* Include a link to the hosted repository (e.g. Github, Bitbucket...). We cannot
   review archives or single files.
-* The repo should include a README that follows the same principles as those
-  described below. In particular, please make sure to include high-level
-  explanation about what the code is doing, and which pieces you're
-  particularly proud of.
+* The repo should include a README that follows the [principles described
+  below](#readme) In particular, please make sure to include high-level
+  explanation about what the code is doing.
 * Ideally, the code you're providing:
-  * Implements some front-end and some back-end aspect.
+  * Has been written by you alone. If not, please tell us which part you wrote
+    and are most proud of in the README.
+  * Is using web technologies.
   * Is deployed and hosted somewhere.
 
-Coding Challenge
-----------------
+Readme
+------
 
-Welcome! Below is a description of a project that you will complete to
-give us some insight into your current level of experience.
+Regardless of whether it's your own code or a coding challenge, write your
+README as if it was for a production service, and include the following items:
 
-This is a simple project, but organize, design, test and document your
-code as if it were going into production. Please then send us:
-
-* A link to the hosted application (e.g. Amazon EC2, Heroku, etc.)
-* A link to the hosted repository (e.g. Github/Bitbucket)
-
-Write your README as if it was for a production service, and include the
-following items:
-
-* The project you chose (departure times, SF movies, email service *or* food
-  trucks)
-* The technical track you chose (full stack, back-end *or* front-end)
-* Reasoning behind your technical choices (and level of experience with those)
+* Description of the problem and solution.
+* Whether the solution focuses on back-end, front-end or if it's full stack.
+* Reasoning behind your technical choices, including architectural.
 * Trade-offs you might have made, anything you left out, or what you might do
-  differently if you were to spend additional time on the project
-* Link to other code you're particularly proud of
-* Link to your resume or public profile
+  differently if you were to spend additional time on the project.
+* Link to other code you're particularly proud of.
+* Link to your resume or public profile.
+* Link to to the hosted application where applicable.
+
+How we review
+-------------
+
+Your application will be reviewed by at least three of our engineers. The
+aspects of your code we will judge include:
+
+* Functionality: Does the application do what was asked? If there is anything
+  missing, does the README explain why it is missing?
+* Code quality: Is the code simple, easy to understand, and maintainable?
+  Are there any code smells or other red flags?
+* Testing: How thorough are the automated tests? Will they be difficult to
+  change if the requirements of the application were to change?
+* UX: Is the web interface understandable and pleasing to use?
+* Technical choices: Do choices of libraries, databases, etc. seem appropriate
+  for the chosen application?
 
 Coding Challenge Guidelines
 ===========================
+
+This is a simple project, but organize, design, test, document and deploy your
+code as if it were going into production. Please then send us a link to the
+hosted repository (e.g. Github, Bitbucket...).
 
 Functional spec
 ---------------
@@ -54,9 +72,8 @@ Prototype **one** of the following projects:
 3. Email Service
 4. Food Trucks
 
-The UX/UI is totally up to you. Feel free to explain any assumptions you have
-to make. If you like, get creative and add additional features a user might
-find useful!
+The UX/UI is totally up to you. If you like, get creative and add additional
+features a user might find useful!
 
 ### Departure Times
 
@@ -80,7 +97,10 @@ Locations](https://data.sfgov.org/Arts-Culture-and-Recreation-/Film-Locations-in
 
 ### Email Service
 
-Create a service that accepts the necessary information and sends emails. It should provide an abstraction between two different email service providers. If one of the services goes down, your service can quickly failover to a different provider without affecting your customers.
+Create a service that accepts the necessary information and sends emails. It
+should provide an abstraction between two different email service providers.
+If one of the services goes down, your service can quickly failover to
+a different provider without affecting your customers.
 
 Example Email Providers:
 
@@ -88,7 +108,8 @@ Example Email Providers:
 * [Mailgun](http://www.mailgun.com) - [Simple Send Documentation](http://documentation.mailgun.com/quickstart.html#sending-messages)
 * [Mandrill](https://mandrillapp.com) - [Simple Send Documentation](https://mandrillapp.com/api/docs/messages.JSON.html#method-send)
 
-All three services are free to try and are pretty painless to sign up for, so please register your own test accounts on each. Please avoid using the client libraries provided by the suppliers. In each case, you’re making simple `POST` requests - do this with a lower level package or your language’s built-in API.
+All three services are free to try and are pretty painless to sign up for, so
+please register your own test accounts on each.
 
 ### Food Trucks
 
@@ -109,19 +130,19 @@ respected.
 Choose **one** of the following technical tracks that best suits your skillset:
 
 1. **Full-stack**: include both front-end and back-end.
-2. **Back-end track**: include a minimal front-end (e.g. a static view, API
-   docs, etc. - do not spend time on it). Write, document and test your API as
-   if it will be used by other services and front-ends.
+2. **Back-end track**: include a minimal front-end (e.g. a static view or API
+   docs). Write, document and test your API as if it will be used by other
+   services.
 3. **Front-end track**: include a minimal back-end, or use the data service
    directly. Focus on making the interface as polished as possible.
 
 ### Back-end
 
 We believe there is no one-size-fits-all technology. Good engineering is about
-using the right tool for the right job. A big part of what we do is learning
-new tools and technologies. Therefore, feel free to mention in your `README`
-how much experience you have with the technical stack you choose, we will take
-note of that when reviewing your challenge.
+using the right tool for the right job, and constantly learning about them.
+Therefore, feel free to mention in your `README` how much experience you have
+with the technical stack you choose, we will take note of that when reviewing
+your challenge.
 
 Here are some technologies we are more familiar with:
 
@@ -135,8 +156,8 @@ Here are some technologies we are more familiar with:
 * Java
 
 You are also free to use any web framework. If you choose to use a framework
-that results in boilerplate code in the repository, please detail in your README
-which code was written by you (as opposed to generated code).
+that results in boilerplate code in the repository, please detail in your
+README which code was written by you (as opposed to generated code).
 
 ### Front-end
 
@@ -152,21 +173,5 @@ process and your understanding of the framework itself.
 Host it!
 --------
 
-When you’re done, host it somewhere and provide us with the server's URL, as
-well as a public URL for the repository hosting your code.
-
-How we review
-=============
-
-Your application will be reviewed by at least three of our engineers. The
-aspects of your code we will judge include:
-
-* Functionality: Does the application do what was asked? If there is anything
-  missing, does the README explain why it is missing?
-* Code quality: Is the code simple, easy to understand, and maintainable?
-  Are there any code smells or other red flags?
-* Testing: How thorough are the automated tests? Will they be difficult to
-  change if the requirements of the application were to change?
-* UX: Is the web interface understandable and pleasing to use?
-* Technical choices: Do choices of libraries, databases, etc. seem appropriate
-  for the chosen application?
+When you’re done, host it somewhere (e.g. on Amazon EC2, Heroku, Google
+AppEngine, etc.).
