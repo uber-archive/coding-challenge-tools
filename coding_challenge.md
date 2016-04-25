@@ -31,6 +31,7 @@ Here are some examples of freely available data:
 * [511](http://511.org/developer-resources_transit-api.asp) (San Francisco)
 * [Nextbus](http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf) (San
   Francisco)
+* [Transport for London Unified API](https://api.tfl.gov.uk/)
 
 ### SF Movies
 
@@ -93,7 +94,7 @@ your challenge.
 
 Here are some technologies we are more familiar with:
 
-* **Python** (most of our back-end uses this language)
+* Python
 * JavaScript
 * Ruby
 * PHP
@@ -112,13 +113,13 @@ The front-end should ideally be a single page app with a single `index.html`
 linking to external JS/CSS/etc. You may take this opportunity to demonstrate
 your CSS3 or HTML5 knowledge.
 
-We recommend using [Backbone.js](http://documentcloud.github.com/backbone/) for
-front-end MVC, and recommend against using heavier front-end frameworks (like
-Angular, for example). That way we can get better insight into your thought
-process and your understanding of the framework itself.
-
 Host it!
 --------
 
 When you’re done, host it somewhere (e.g. on Amazon EC2, Heroku, Google
 AppEngine, etc.).
+
+How will we review?
+-------------------
+
+[Guidelines can be found here](https://github.com/uber/coding-challenge-tools/blob/master/README.md)
