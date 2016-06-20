@@ -33,6 +33,8 @@ How we review
 
 Your application will be reviewed by at least three of our engineers. We do take into consideration your experience level.
 
+**We value quality over feature-completeness**. It is fine to leave things aside provided you call them out in your project's README. The goal of this code sample is to help us identify what you consider production-ready code. You should consider this code ready for final review with your colleague, i.e. this would be the last step before deploying to production.
+
 The aspects of your code we will assess include:
 
 * **Architecture**: how clean is the separation between the front-end and the back-end?

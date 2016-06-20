@@ -116,8 +116,7 @@ your CSS3 or HTML5 knowledge.
 Host it!
 --------
 
-When you’re done, host it somewhere (e.g. on Amazon EC2, Heroku, Google
-AppEngine, etc.).
+When you’re done, host it somewhere (e.g. on Amazon EC2, Heroku, Google AppEngine, etc.).
 
 How will we review?
 -------------------
